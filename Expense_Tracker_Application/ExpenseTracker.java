@@ -1,4 +1,4 @@
-package ExpenseTracker;
+package Expense_Tracker_Application;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ class Transaction implements Serializable {
 }
 
 public class ExpenseTracker {
-    private static final String DATA_FILE = "ExpenseTracker/transactions.ser";
+    private static final String DATA_FILE = "Expense_Tracker_Application/transactions.ser";
     private List<Transaction> transactions;
     private Scanner scanner;
 
